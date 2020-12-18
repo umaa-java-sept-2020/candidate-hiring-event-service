@@ -6,6 +6,9 @@ public class Department {
   private String name;
   private String displayName;
 
+    public Department() {
+    }
+
     public int getId() {
         return id;
     }
