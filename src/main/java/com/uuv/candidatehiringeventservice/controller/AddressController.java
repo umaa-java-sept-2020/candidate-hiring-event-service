@@ -12,16 +12,19 @@ public class AddressController {
     public String getAllAddress() {
         return "All the employee list";
     }
+
     @PostMapping("/address/")
-    public String saveAddress(){
+    public String saveAddress() {
         return "save address";
     }
+
     @PutMapping("/address/update")
-    public String updateAddress(){
+    public String updateAddress() {
         return "update address";
     }
+
     @DeleteMapping("/address/delete")
-    public String deleteAddress(){
+    public String deleteAddress() {
         return "delete address";
     }
 }
