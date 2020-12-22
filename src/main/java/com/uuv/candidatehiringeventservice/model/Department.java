@@ -1,10 +1,10 @@
 package com.uuv.candidatehiringeventservice.model;
 
 public class Department {
-  private int id;
-  private String uid;
-  private String name;
-  private String displayName;
+    private int id;
+    private String uid;
+    private String name;
+    private String displayName;
 
     public int getId() {
         return id;
