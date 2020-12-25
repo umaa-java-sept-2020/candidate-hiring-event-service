@@ -6,6 +6,7 @@ public class Departments {
     private String name;
     private String displayName;
 
+
     public Departments(int id, String uid, String name, String displayName) {
         this.id = id;
         this.uid = uid;
