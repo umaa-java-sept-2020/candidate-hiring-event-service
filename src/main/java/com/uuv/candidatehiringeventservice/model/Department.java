@@ -37,4 +37,14 @@ public class Department {
     public void setDisplayName(String displayName) {
         this.displayName = displayName;
     }
+
+    public Department(int id, String uid, String name, String displayName) {
+        this.id = id;
+        this.uid = uid;
+        this.name = name;
+        this.displayName = displayName;
+    }
+
+    public Department() {
+    }
 }
